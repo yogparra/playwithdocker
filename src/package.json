@@ -1,0 +1,16 @@
+{
+  "name": "swarm-hostname",
+  "version": "1.0.0",
+  "description": "Ejemplo de contenedores docker",
+  "main": "index.js",
+  "dependencies": {
+    "express": "4.16.4",
+    "dotenv": "5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "gparra",
+  "license": "ISC"
+}
