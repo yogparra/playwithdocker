@@ -4,10 +4,10 @@ COPY ["package.json", "package-lock.json", "/usr/src/"]
 
 WORKDIR /usr/src
 
-RUN npm ci
+RUN npm i
 
 COPY [".", "/usr/src/"]
 
-EXPOSE 3000
+EXPOSE 3070
 
-CMD ["node", "index.js"]
+CMD [ "npm", "start" ]

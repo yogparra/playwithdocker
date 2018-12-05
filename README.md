@@ -14,7 +14,6 @@ Docker:
     https://store.docker.com
     https://hub.docker.com        
 ```
-
 # Ejecutar
 ```
 1.- Clonar repositorio
@@ -24,4 +23,14 @@ Docker:
         $> playwithdocker/src
         $> npm install
         $> npm start
+```
+# Ejemplo
+```
+https://github.com/yogparra/playwithdocker.git
+github --> @yogparra -->code7ylindo
+
+docker build -t ejemplodocke-01 .
+docker images
+docker run --name ejemplo-v1 -d -p 3070:3070 ejemplodocke-01
+docker run --name ejemplo-v2 -d -p 3070:3070 ejemplodocke-01
 ```
